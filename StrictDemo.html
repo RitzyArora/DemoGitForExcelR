@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+<script type="module">
+// "use strict";
+// a = 12;  
+
+
+// function myStrictFunction() {
+  
+//   "use strict";
+//   function nested() {
+//     return "And so am I!";
+//   }
+//   return `Hi! I'm a strict mode function! ${nested()}`;
+// }
+// function myNotStrictFunction() {
+//   return "I'm not strict.";
+// }
+
+// document.getElementById('demo').innerHTML=myStrictFunction();
+
+import {myFunction,demoFunction} from './ES6Concepts.js'
+import {numberArray} from './ES6Concepts.js'
+myFunction()
+demoFunction()
+for(let value of numberArray)
+{
+    console.log(value)
+}
+
+</script>
+
+</body>
+</html>
